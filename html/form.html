@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | Distribuidora</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../multi/favicon-32x32.png">
+</head>
+<body>
+  <div class="contenedor">
+    <header>   
+      <img src="../multi/logo.png" alt="logo" class="pollo">
+        <div class="titulo">  
+          <h1>Los asturianos</h1>
+            <h2>Precios mayoristas a clientes minoristas</h2>
+            <h3>Supremo</h3>
+        </div>  
+          <nav class="menu">
+            <ul>
+              <li><a  href="../index.html">Inicio</a></li>
+              <li><a  href="./product.html">Productos</a></li>
+              <li><a  href="./contacto.html">Contacto</a></li>
+              <li><a  target="blank" href="https://www.google.com.ar/maps/place/Taller+Mecanico+Guille/@-34.6908487,-58.378898,17z/data=!3m1!4b1!4m9!1m2!2m1!1sgeneral+chamizo+gerli!3m5!1s0x95bccd453cfdc625:0xf3d7a3aedb53233f!8m2!3d-34.6908514!4d-58.3760048!16s%2Fg%2F11gk2j80m0">Donde Encontrarnos</a></li>
+              <li><a  href="./faq.html"> Preguntas Frecuentes</a></li>
+              <li><a  href="./form.html">Formulario</a></li>          
+              <li><a href="./recetas.html">Recetas</a></li>
+            </ul>
+          </nav>  
+    </header>    
+    <main class="">
+      <div class="formulario">
+        <h1> Precios mayoristas a clientes minoristas</h1>
+        <fieldset><legend>Estás a un paso de comer sano</legend>
+          <form action="">  
+            <div>
+              <label for="nombre">Escribe tu nombre:</label>
+              <input type="text" name="nombre" required placeholder="Gonzalo">
+            </div>
+            <div>
+              <label for="teléfono">Escribe tu teléfono*:</label>
+              <input type="number" name="número" required placeholder="1512345678"> 
+            </div>   
+            <div>
+              <label for="dirección">Escriba tu dirección*:</label>
+              <input type="text" name="dirección" required placeholder="Av.Rivadavia 5400">
+            </div>
+            <div>
+              <label for="cliente">Tipo de cliente:</label>
+              <br>
+              <input type="radio" name="cliente" value="par">Particular
+              <input type="radio" name="cliente" value="gran">Granja/Carniceria
+              <input type="radio" name="cliente" value="resto">Restaurant/Negocio de comida
+              <input type="radio" name="cliente" value="otro">Otro
+            </div>
+            
+            <div>
+              <input type="submit" value="Enviar Formulario">
+              <input type="reset" value="Borrar Formulario">
+            </div>
+              <label for="comentario">Deja tu comentario!</label>
+            <br>
+              <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
+            <br>
+              <label for="condic">Acepta las condiciones</label>
+              <input type="checkbox" name="Condic">
+            <section>
+              <p>Al rellenar este formulario, luego de entre 2 y 3 días te llegara una respuesta por parte de Los asturianos.</p>
+            </section>
+          </form>
+        </fieldset>
+      </div>  
+    </main>
+    <footer>
+      <img src="../multi/logo.png" alt="Pollo ícono" class="pollo">
+        <p>Todos los derechos reservados</p>
+      <img class="banner" src="../multi/banner.png" alt="banner">
+   </footer>
+  </div>
+</body>
+</html>
