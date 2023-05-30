@@ -42,7 +42,7 @@ header{
 
 header .menu ul{
     list-style-type:none;
-    /*aca iba el display:flex*/
+    display: flex;
 }
 header .menu li{
     padding: 0.7rem;
