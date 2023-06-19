@@ -1,0 +1,25 @@
+.main__producto{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    & .card{
+        width: 32.5rem;
+        margin: 30px;
+        padding: 2rem;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        img{
+            width: 100%;
+            height: 280px;
+        }
+        .contenido{
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+}
+

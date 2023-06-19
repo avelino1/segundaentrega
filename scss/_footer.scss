@@ -1,0 +1,13 @@
+$mostard:#ffde59;
+footer{
+    background-color:$mostard;
+    width: 100%;
+    justify-content:space-around;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.banner{
+    width: 30vw;
+    height: 20vh;
+}

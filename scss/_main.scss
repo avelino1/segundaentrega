@@ -1,0 +1,58 @@
+
+
+.main__inicio{
+    .info__inicio{
+        background: radial-gradient( ellipse,red,orange,yellow);
+        text-align: center;
+        padding: 2rem;
+    }
+    .contenedor__inicio{
+        background-color: aliceblue;
+        border:solid rgb(255, 0, 0);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,auto);
+        gap: 0rem 5rem;
+        .section__pollo{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin: .2rem;
+            justify-content: justify;
+            img{
+                padding-top: 1rem;
+                margin: .5rem;
+                float:left;
+                height: 44%;
+                width: 31rem;
+            }
+            p{
+                padding-top:  1rem;
+                line-height: 1.5rem;
+                text-align:justify;
+            }
+        }
+        .section__huevo{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            margin: .2rem;
+            justify-content: justify;
+            img{
+                padding-top: 1rem;
+                margin: .5rem;
+                float:left;
+                height: 44%;
+                width: 31rem;
+            }
+            p{
+                padding-top: 1rem;
+                line-height: 1.5rem;
+                text-align:justify;
+            }
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+$mostard:#ffde59;
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$mostard; 
+    
+    
+}
+.pollo{
+    padding: 5px;
+    width: 10%;
+}
+
+header .menu ul{
+    list-style-type:none;
+    display: flex;
+    
+    
+}
+header .menu li{
+    padding: 0.7rem;
+    
+}
+header .menu a{
+    color:black;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+header .menu a:hover{
+    background-color: #df0909;
+    color: #ffffff;
+    border-radius: 50%;
+    font-weight: 500;
+    transition: all .75s;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    
+}
+.titulo h2{
+    display: flex;
+    justify-content: center;
+    padding:.5rem;
+}
+.titulo h3{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;;
+}
